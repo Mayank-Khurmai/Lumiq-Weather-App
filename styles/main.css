@@ -1,6 +1,7 @@
 @charset "UTF-8";
 *{
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body{
@@ -34,13 +35,22 @@ h3{
     width: 90%;
     margin: 10px auto;
     margin-bottom: 20px;
+    position: relative;
 }
 
 #search-div > input{
     font-size: 18px;
-    padding: 5px;
+    padding: 8px;
     text-align: center;
     width: 100%;
+}
+
+#search-icon{
+    display: none;
+    position: absolute;
+    top: 5px;
+    right: 7px;
+    cursor: pointer;
 }
 
 #result-div{
@@ -72,6 +82,5 @@ h3{
 }
 
 #result-div > div > img{
-    width: 120px;
-    height: 100px;
+    width: 160px;
 }
