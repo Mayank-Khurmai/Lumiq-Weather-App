@@ -35,7 +35,6 @@ display_output = (data)=>{
     document.getElementById("result-div-span4").innerHTML = Math.round(data.main.temp_min)+"&#8451; (min) / "+Math.round(data.main.temp_max)+"&#8451 (max)";
     document.getElementById("result-div-span5").innerHTML = data.weather[0].main;
     document.getElementById("result-div-img").src = "http://openweathermap.org/img/wn/"+data.weather[0].icon+"@2x.png"
-
 }
 
 api_request = ()=>{
