@@ -68,9 +68,10 @@ h3{
     border: 1px solid black;
 }
 
-#result-div > div{
+#result-div >  div{
     align-self: center;
     margin: 0 auto;
+
 }
 
 #result-div-span1, #result-div-span2, #result-div-span4, #result-div-span5{

@@ -49,7 +49,7 @@ backgroud_change = (value)=>{
 
 display_output = (data)=>{
     console.log(data);
-    document.getElementById("result-div-span1").innerHTML = data.name+", "+data.sys.country;
+    document.getElementById("result-div-span1-text").innerHTML = data.name+", "+data.sys.country;
     document.getElementById("result-div-span2").innerHTML = complete_date();
     document.getElementById("result-div-span3").innerHTML = Math.round(data.main.temp)+"&#8451";
     document.getElementById("result-div-span4").innerHTML = Math.round(data.main.temp_min)+"&#8451; (min) / "+Math.round(data.main.temp_max)+"&#8451 (max)";
