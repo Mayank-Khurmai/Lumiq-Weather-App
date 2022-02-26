@@ -7,17 +7,22 @@
 body{
     padding: 0px;
     margin: 0px;
+    height: 100vh;
     background-color: aliceblue;
+    background-size: cover;
+    position: relative;   
 }
 
 #outer-div{
-    width: 35%;
-    height: 640px;
-    margin: 0 auto;
-    margin-top: 50px;
+    width: 30%;
+    padding-bottom: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     background-color: rgba(255, 255, 255, 0.4);
     border: 2px solid lightslategrey;
-    box-shadow: 2px 2px rgb(145, 141, 141);
+    box-shadow: 2px 2px 2px 2px rgb(145, 141, 141);
 }
 
 #header-div{
@@ -59,7 +64,7 @@ h3{
     width: 90%;
     text-align: center;
     display: flex;
-    background-color: rgba(255, 255, 255, 0.8);;
+    background-color: rgba(255, 255, 255, 0.9);;
     border: 1px solid black;
 }
 
