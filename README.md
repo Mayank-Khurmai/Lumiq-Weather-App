@@ -1,6 +1,5 @@
 # Lumiq-Weather-App
-
-Hosted Page - https://mayank-khurmai.github.io/Lumiq-Visiting-Card-Calculator
+.
 <br>
 ![App Screenshot](https://github.com/Mayank-Khurmai/Lumiq-Weather-App/blob/main/screenshots/weather-1.png)
 <br>
